@@ -5,12 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .orange-color{
     color: orange;
-}
-section{
-    display: flex;
-    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
@@ -30,9 +29,43 @@ section{
 .top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 200px;
 }
 .veteran-section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    margin-bottom: 200px;
+}
+.experience-section{
+    display: flex;
+    margin-bottom: 200px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-box{
+    width: 40%;
+    margin: 0 5%;
+    padding: 20px;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 10px;
+}
+#exp-box-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#exp-box-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(brown, gray);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
